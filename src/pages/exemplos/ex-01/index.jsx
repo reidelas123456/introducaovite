@@ -1,12 +1,10 @@
-function Exemplo01 () {
+function Exemplo01() {
     return (
- <>
-<h1>sobre aula de react com Vite JS1</h1>
- <h3>Estilizacao css</h3>
-<p>eu nao fiz nada</p>
-</>
+        <>
+            <h1>Exemplo 1</h1>
+            <p>Conteúdo mínimo para componente React</p>
+        </>
     )
-
 }
 
 export default Exemplo01;
