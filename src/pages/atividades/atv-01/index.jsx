@@ -9,4 +9,5 @@ function Atividades() {
     );
 }
 
+
 export default Atividades;
