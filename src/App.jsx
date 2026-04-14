@@ -5,6 +5,7 @@ import Exemplos01 from './pages/exemplos/ex-01'
 import Exemplos02 from './pages/exemplos/ex-02'
 import Atividade01 from './pages/atividades/atv-01'
 import Exemplos03 from './pages/exemplos/ex-03'
+import Atividade02 from './pages/atividades/atv-02'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/exemplo/2" element={<Exemplos02 />} />
       <Route path="/atividades/1" element={<Atividade01 />} />
       <Route path="/exemplo/3" element={<Exemplos03 />} />
+            <Route path="/atividades/2" element={<Atividade02 />} />
     </Routes>
   )
 }
