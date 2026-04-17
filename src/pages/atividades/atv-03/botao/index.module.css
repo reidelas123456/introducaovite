@@ -1,0 +1,37 @@
+.botao {
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.botao:hover {
+  transform: scale(1.1);
+}
+
+.botao:active {x
+  transform: scale(0.95);
+}
+
+.cadastrar {
+  background-color: green;
+}
+
+.editar {
+  background-color: #17a2b8;
+}
+
+.listar {
+  background-color: orange;
+}
+
+.excluir {
+  background-color: crimson;
+}
+
+.cancelar {
+  background-color: gray;
+}
