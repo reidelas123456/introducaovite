@@ -1,0 +1,30 @@
+.linha {
+    display: flex;
+    gap: 1rem;
+}
+
+.linha input {
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.linha button {
+    background: #8b0000;
+    color: white;
+    border: none;
+    padding: 0 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lista {
+    margin-top: 2rem;
+}
+
+.lista p {
+    background: #f2f2f2;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
